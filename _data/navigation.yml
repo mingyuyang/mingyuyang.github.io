@@ -1,0 +1,27 @@
+main:
+  - title: Teaching
+    url: /teaching/
+
+  - title: Publications
+    url: /publications/  
+
+  - title: Blog
+    url: /blog/   
+
+  #- title: Blog
+  #  type: dropdown
+  #  items:
+  #    - title: Blog without Sidebar
+  #      url: /blog/
+  #    - title: Blog with Sidebar
+  #      url: /blog-right-sidebar/
+  #    - title: Blog with Left Sidebar
+  #      url: /blog-left-sidebar/
+  #    - title: Blog Posts
+  #      submenu:
+  #        - title: Post without Sidebar
+  #          url: /blog/standard-post-layout-example/
+  #        - title: Post with Sidebar
+  #          url: /blog/overlay-post-layout-example/
+  #        - title: Post with Left Sidebar
+  #          url: /blog/sidebar-post-layout-example/

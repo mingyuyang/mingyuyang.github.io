@@ -1,0 +1,86 @@
+---
+layout: default
+header_style: blog-list
+---
+<div class="content-wrapper">
+  <header class="wrapper bg-light">
+  {% include components/navbar/navbar.html 
+      topAlert=false
+      wrapperClass="bg-soft-primary"
+      classList="classic transparent navbar-light "
+      logoAlt="logo-dark"
+      otherClassList="ms-lg-4"
+      otherBtn=true
+      otherBtnClassList="btn btn-sm btn-primary rounded-pill"
+      otherBtnText="Contact"
+      otherBtnLink="mailto:ymy@ucsd.edu"      
+  %}
+  </header>
+
+<section class="wrapper bg-light">
+  <div class="container py-8 py-md-13 text-center">
+  <h3 class="display-4 mb-7 px-xl-7">Blog</h3>
+  </div> 
+</section>
+
+
+<section class="wrapper bg-light">
+  <div class="container pb-14 pb-md-16">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        <div class="blog classic-view mt-n12">
+          {% for post in paginator.posts reversed %}
+          <article class="post">
+            <div class="card">
+              <div class="card-body">
+                <div class="post-header">
+                  <div class="post-category text-line">
+                    <a href="/blog/category/{{ post.category | slugify }}/" class="hover" rel="category">{{ post.category }}</a>
+                  </div>
+                  <!-- /.post-category -->
+                  <h2 class="post-title mt-1 mb-0"><a class="link-dark" href="{{ post.url }}">{{ post.title }}</a></h2>
+                </div>
+                <!-- /.post-header -->
+                <div class="post-content">
+                  <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+                </div>
+                <!-- /.post-content -->
+              </div>
+              <!--/.card-body -->
+              <div class="card-footer">
+                <ul class="post-meta d-flex mb-0">
+                  <li class="post-date"><i class="uil uil-calendar-alt"></i><span>{{ post.date | date: "%d %b %Y" }}</span></li>
+                  <li class="post-author"><a href="/authors/{{ post.author | slugify }}"><i class="uil uil-user"></i><span>By {{ post.author }}</span></a></li>
+                  {% if post.comments %}<li class="post-comments"><a href="{{ post.url }}#comments"><i class="uil uil-comment"></i>{{ post.comments }}{% if post.comments != 1 %}<span> Comments</span>{% else %}<span> Comment</span>{% endif %}</a></li>{% endif %}
+                  {% if post.likes %}<li class="post-likes ms-auto"><a href="#"><i class="uil uil-heart-alt"></i>{{ post.likes }}</a></li>{% endif %}
+                </ul>
+                <!-- /.post-meta -->
+              </div>
+              <!-- /.card-footer -->
+            </div>
+            <!-- /.card -->
+          </article>
+          <!-- /.post -->
+          {% endfor %}
+        </div>
+        <!-- /.blog -->
+        <!-- /.pagination -->
+        {% include components/blog/pagination.html alignment="center" %}
+      </div>
+      <!-- /column -->
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+</section>
+<!-- /section -->
+
+</div>
+{% include components/footer/footer.html 
+  style="minimal"
+  bg_color="bg-navy"
+  text_color="text-inverse" 
+  cta=false
+  newsletter=false
+  container_padding="pt-10 pb-10"
+%}

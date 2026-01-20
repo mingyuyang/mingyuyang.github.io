@@ -1,0 +1,96 @@
+---
+layout: default
+---
+<div class="content-wrapper">
+  <header class="wrapper bg-light">
+  {% include components/navbar/navbar.html 
+      topAlert=false
+      wrapperClass="bg-soft-primary"
+      classList="classic transparent navbar-light "
+      logoAlt="logo-dark"
+      otherClassList="ms-lg-4"
+      otherBtn=true
+      otherBtnClassList="btn btn-sm btn-primary rounded-pill"
+      otherBtnText="Contact"
+      otherBtnLink="mailto:ymy@ucsd.edu"    
+  %}
+  </header>
+
+  
+  {% include components/header/header-post.html 
+    header_style=page.header_style
+    background_image=null
+    category=page.category
+    title=page.title
+    meta_date=page.date
+    meta_author=page.author
+    meta_comments=page.comments
+    meta_likes=page.likes
+ %}
+ 
+
+
+
+  <section class="wrapper bg-light">
+    <div class="container {% if page.header_style == 'standard' %}pb-14 pb-md-16{% else %}py-14 py-md-16{% endif %}">
+      
+      {% if page.header_style == 'standard' %}
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <div class="blog single mt-n17">
+      {% else %}
+      <div class="row gx-lg-8 gx-xl-12">
+        <div class="col-lg-8 {% if page.sidebar_position == 'left' %}order-lg-2{% endif %}">
+          <div class="blog single">
+      {% endif %}
+            
+            <div class="card">
+              <!-- {% include components/blog/post/featured-image.html image_url=page.featured_image image_alt=page.title %}-->
+              
+              <div class="card-body pt- pb-3">
+                <div class="classic-view">
+                  <article class="post">
+                    <div class="post-content mb-5" style="line-height: 1.7;">
+                      {{ content }}
+                    </div>
+                    <div class="post-footer-meta border-top mt-5">
+                      {% if page.last_modified %}
+                        <p class="text-muted small">Last updated on {{ page.last_modified | date: "%d %B %Y" }}</p>
+                      {% else %}
+                        <p class="text-muted small">Published on {{ page.date | date: "%d %B %Y" }}</p>
+                      {% endif %}
+                    </div>
+                    
+                   
+                  </article>
+                </div>
+                
+                <br>
+                <br>
+
+                <!--{% include components/blog/related-posts.html %}-->
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+       <!-- {% unless page.header_style == 'standard' and page.sidebar_position == false %}
+        <aside class="col-lg-4 sidebar mt-11 mt-lg-6 {% if page.sidebar_position == 'left' %}order-lg-1{% endif %}">
+          {% include components/blog/sidebar-widgets.html %}
+        </aside>
+        {% endunless %}-->
+      </div>
+    </div>
+  </section>
+
+{% include components/footer/footer.html 
+  style="minimal"
+  bg_color="bg-navy"
+  text_color="text-inverse" 
+  cta=false
+  newsletter=false
+  container_padding="pt-10 pb-10"
+%}
+</div>
