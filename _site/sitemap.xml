@@ -2,15 +2,15 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://localhost:4000/authors/jane-smith/</loc>
-<lastmod>2026-01-19T21:22:15-08:00</lastmod>
+<lastmod>2026-01-19T21:36:24-08:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/authors/john-doe/</loc>
-<lastmod>2026-01-19T21:22:15-08:00</lastmod>
+<lastmod>2026-01-19T21:36:24-08:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/authors/tortoiz-themes/</loc>
-<lastmod>2026-01-19T21:22:15-08:00</lastmod>
+<lastmod>2026-01-19T21:36:24-08:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/blog/A-letter-to-my-future-self/</loc>
