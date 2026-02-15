@@ -73,7 +73,7 @@ services:
               <img src="/assets/img/icons/courses/bild5_icon.png"
                 alt=""
                 style="width: 100px; height: auto;" />
-              <h5>BILD 5 Data Analysis & Design for Biologists</h5>
+              <h3>BILD 5 Data Analysis & Design for Biologists</h3>
               <p class="mb-2">Introduction to information literacy, experimental design, and data analysis for biologists, including coding, data management, and quantitative analysis. Practical skills related to effectively asking and answering biological questions with data.</p>
               <a href="#" class="more hover link-yellow">Sample syllabus</a>
             </div>
@@ -86,7 +86,7 @@ services:
               <img src="/assets/img/icons/courses/bipn100_icon.png"
                 alt=""
                 style="width: 100px; height: auto;" />
-              <h5>BIPN 100 Human Physiology I</h5>
+              <h3>BIPN 100 Human Physiology I</h3>
               <p class="mb-2">Concepts of physiological regulation, controlled and integrated by the nervous and endocrine systems. Structure and function of the muscular, cardiovascular, and renal systems in detail and their control through the interaction of nervous activity and hormones. </p>
               <a href="#" class="more hover link-blue">Sample syllabus</a>
             </div>
@@ -99,7 +99,7 @@ services:
               <img src="/assets/img/icons/courses/bipn103_icon.png"
                 alt=""
                 style="width: 100px; height: auto;" />
-              <h5>BIPN 103 Human Anatomy w/ Lab</h5>
+              <h3>BIPN 103 Human Anatomy w/ Lab</h3>
               <p class="mb-2">Tour of the human body, including the cellular and structural organization of the major organ systems. Covers the cardiovascular, digestive, muscular, nervous, renal, reproductive, respiratory, and skeletal systems.</p>
               <a href="#" class="more hover link-red">Sample syllabus</a>
             </div>
@@ -184,7 +184,10 @@ services:
 
         
         <div class="job-list mb-10">
-       
+
+
+
+
 
         <a class="job-item card mb-2 lift" 
           data-course="BIPN 100" 

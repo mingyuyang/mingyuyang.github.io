@@ -106,119 +106,172 @@ footer_cta:
         <div class="job-list mb-10">
 
 
-        <div class="job-item card border-0 bg-transparent mb-4" data-year="25-26">
-          <div class="card-body p-2">
-            <span class="row justify-content-between g-4">
-              <span class="col-2 col-md-2 text-body d-flex align-items-center">
-                <strong>Jan 2026</strong>
-              </span>
-              <span class="col-10 col-md-10 text-body d-flex align-items-center">
-              Heidi, my undergraduate research mentee, presented a short talk at SABER West examining how the visuals used in biology courses may shape students’ reasoning in chemistry.
-              </span>
-            </span>
+<div class="job-item card border-0 bg-transparent mb-4" data-year="25-26">
+  <div class="card-body p-2">
+
+    <div class="row justify-content-center">   
+      <div class="col-11 col-lg-11">           
+        <div class="row g-4 align-items-center">
+          <div class="col-2 text-body d-flex align-items-center">
+            <strong>Jan 2026</strong>
           </div>
-        </div>
-
-
-        <div class="job-item card border-0 bg-transparent mb-4" data-year="25-26">
-          <div class="card-body p-2">
-            <span class="row justify-content-between g-4">
-              <span class="col-2 col-md-2 text-body d-flex align-items-center">
-                <strong>Sep 2025</strong>
-              </span>
-              <span class="col-10 col-md-10 text-body d-flex align-items-center">
-              I gave a talk at UCSD Biology's Innovations in Teaching Symposium about my education research projects.
-              </span>
-            </span>
-          </div>
-        </div>
-
-         <div class="job-item card border-0 bg-transparent mb-4" data-year="25-26">
-          <div class="card-body p-2">
-            <span class="row justify-content-between g-4">
-              <span class="col-2 col-md-2 text-body d-flex align-items-center">
-                <strong>Aug 2025</strong>
-              </span>
-              <span class="col-10 col-md-10 text-body d-flex align-items-center">
-              This quarter, Carlos Rojo and I are launching BIPN 103 (Human Anatomy). We're so excited to offer an undergraduate anatomy course for the first time at UCSD!
-              </span>
-            </span>
-          </div>
-        </div>
-
-
-        <div class="job-item card border-0 bg-transparent mb-4" data-year="24-25">
-          <div class="card-body p-2">
-            <span class="row justify-content-between g-2">
-              <span class="col-2 col-md-2 text-body d-flex align-items-center">
-                <strong>May 2025</strong>
-              </span>
-              <span class="col-10 col-md-10 text-body d-flex align-items-center">
-              Heidi, my first undergraduate research mentee at UCSD, presented her research at the Summer Research Conference (SRC)! Heidi's project explored how students reconcile their conflicting disciplinary ideas about chemical bonding.
-              </span>
-            </span>
-          </div>
-        </div>
-
-        <div class="job-item card border-0 bg-transparent mb-4" data-year="24-25">
-          <div class="card-body p-2">
-            <span class="row justify-content-between g-2">
-              <span class="col-2 col-md-2 text-body d-flex align-items-center">
-                <strong>May 2025</strong>
-              </span>
-              <span class="col-10 col-md-10 text-body d-flex align-items-center">
-              Our paper about visual representations of bonding and energy is published in Biochemistry and Molecular Biology Education (BAMBED).
-              </span>
-            </span>
-          </div>
-        </div>
-
-        <div class="job-item card border-0 bg-transparent mb-4" data-year="24-25">
-          <div class="card-body p-2">
-            <span class="row justify-content-between g-2">
-              <span class="col-2 col-md-2 text-body d-flex align-items-center">
-                <strong>Jan 2025</strong>
-              </span>
-              <span class="col-10 col-md-10 text-body d-flex align-items-center">
-              I gave a talk at SABER West on how visual representations of ATP shape students' chemical reasoning. 
-              </span>
-            </span>
-          </div>
-        </div>
-
-        <div class="job-item card border-0 bg-transparent mb-4" data-year="24-25">
-          <div class="card-body p-2">
-            <span class="row justify-content-between g-2">
-              <span class="col-2 col-md-2 text-body d-flex align-items-center">
-                <strong>Jan 2025</strong>
-              </span>
-              <span class="col-10 col-md-10 text-body d-flex align-items-center">
-              I started teaching at UCSD! For my first quarter, I'll be teaching BIPN 100 (Human Physiology I).
-              </span>
-            </span>
-          </div>
-        </div>
-
-
-        <div class="job-item card border-0 bg-transparent mb-4" data-year="23-24">
-          <div class="card-body p-2">
-            <span class="row justify-content-between g-2">
-              <span class="col-2 col-md-2 text-body d-flex align-items-center">
-                <strong>May 2024</strong>
-              </span>
-              <span class="col-10 col-md-10 text-body d-flex align-items-center">
-              I defended my PhD thesis and graduated from MIT!
-              </span>
-            </span>
+          <div class="col-10 text-body d-flex align-items-center">
+            Heidi, my undergraduate research mentee, presented a short talk at SABER West examining how the visuals used in biology courses may shape students’ reasoning in chemistry.
           </div>
         </div>
 
       </div>
     </div>
 
+  </div>
+</div>
 
+<div class="job-item card border-0 bg-transparent mb-4" data-year="25-26">
+  <div class="card-body p-2">
+
+    <div class="row justify-content-center">   
+      <div class="col-11 col-lg-11">           
+        <div class="row g-4 align-items-center">
+          <div class="col-2 text-body d-flex align-items-center">
+            <strong>Sep 2025</strong>
+          </div>
+          <div class="col-10 text-body d-flex align-items-center">
+           I gave a talk at UCSD Biology's Innovations in Teaching Symposium about my education research projects.
+          </div>
+        </div>
+
+      </div>
+    </div>
 
   </div>
+</div>
+
+<div class="job-item card border-0 bg-transparent mb-4" data-year="25-26">
+  <div class="card-body p-2">
+
+    <div class="row justify-content-center">   
+      <div class="col-11 col-lg-11">           
+        <div class="row g-4 align-items-center">
+          <div class="col-2 text-body d-flex align-items-center">
+            <strong>Aug 2025</strong>
+          </div>
+          <div class="col-10 text-body d-flex align-items-center">
+           This quarter, Carlos Rojo and I are launching BIPN 103 (Human Anatomy). We're so excited to offer an undergraduate anatomy course for the first time at UCSD!
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="job-item card border-0 bg-transparent mb-4" data-year="24-25">
+  <div class="card-body p-2">
+
+    <div class="row justify-content-center">   
+      <div class="col-11 col-lg-11">           
+        <div class="row g-4 align-items-center">
+          <div class="col-2 text-body d-flex align-items-center">
+            <strong>May 2025</strong>
+          </div>
+          <div class="col-10 text-body d-flex align-items-center">
+           Heidi, my first undergraduate research mentee at UCSD, presented her research at the Summer Research Conference (SRC)! Heidi's project explored how students reconcile their conflicting disciplinary ideas about chemical bonding.
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="job-item card border-0 bg-transparent mb-4" data-year="24-25">
+  <div class="card-body p-2">
+
+    <div class="row justify-content-center">   
+      <div class="col-11 col-lg-11">           
+        <div class="row g-4 align-items-center">
+          <div class="col-2 text-body d-flex align-items-center">
+            <strong>May 2025</strong>
+          </div>
+          <div class="col-10 text-body d-flex align-items-center">
+           Our paper about visual representations of bonding and energy is published in Biochemistry and Molecular Biology Education (BAMBED).
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+ <div class="job-item card border-0 bg-transparent mb-4" data-year="24-25">
+  <div class="card-body p-2">
+
+    <div class="row justify-content-center">   
+      <div class="col-11 col-lg-11">           
+        <div class="row g-4 align-items-center">
+          <div class="col-2 text-body d-flex align-items-center">
+            <strong>Jan 2025</strong>
+          </div>
+          <div class="col-10 text-body d-flex align-items-center">
+           I gave a talk at SABER West on how visual representations of ATP shape students' chemical reasoning. 
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</div> 
+
+ <div class="job-item card border-0 bg-transparent mb-4" data-year="24-25">
+  <div class="card-body p-2">
+
+    <div class="row justify-content-center">   
+      <div class="col-11 col-lg-11">           
+        <div class="row g-4 align-items-center">
+          <div class="col-2 text-body d-flex align-items-center">
+            <strong>Jan 2025</strong>
+          </div>
+          <div class="col-10 text-body d-flex align-items-center">
+           I started teaching at UCSD! For my first quarter, I'll be teaching BIPN 100 (Human Physiology I).
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</div> 
+
+ <div class="job-item card border-0 bg-transparent mb-4" data-year="23-24">
+  <div class="card-body p-2">
+
+    <div class="row justify-content-center">   
+      <div class="col-11 col-lg-11">           
+        <div class="row g-4 align-items-center">
+          <div class="col-2 text-body d-flex align-items-center">
+            <strong>May 2024</strong>
+          </div>
+          <div class="col-10 text-body d-flex align-items-center">
+           I defended my PhD thesis and graduated from MIT!
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+</div>
 </div>
 </section>
 
