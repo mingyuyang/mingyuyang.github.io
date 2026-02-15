@@ -186,7 +186,55 @@ services:
         <div class="job-list mb-10">
        
 
+        <a class="job-item card mb-2 lift" 
+          data-course="BIPN 100" 
+          data-year = "25-26" 
+          data-building = "">
+            <div class="card-body p-2">
+             <span class="row justify-content-between g-2">
+               <span class="col-1 col-md-1 mb-2 mb-md-0 text-body">
+                  <span class="avatar bg-blue text-white w-11 h-11 me-2" style="font-size: 12px;">BIPN 100</span> 
+                  </span>
+                <span class="col-2 col-md-5 text-body d-flex align-items-center">
+                  Human Physiology I
+                </span>
+                <span class="col-2 col-md-2 text-body d-flex align-items-center">
+                  <i class="uil uil-clock me-1"></i> Spring 2026
+                </span>
+                <span class="col-2 col-md-2 text-body d-flex align-items-center">
+                  <i class="uil uil-location-arrow me-1"></i> TBD
+                </span>
+                <span class="col-2 col-md-2 text-body d-flex align-items-center">
+                  TBD
+                </span>
+              </span>
+            </div>
+          </a>
 
+        <a class="job-item card mb-2 lift" 
+          data-course="BIPN 103" 
+          data-year = "25-26" 
+          data-building = "">
+            <div class="card-body p-2">
+             <span class="row justify-content-between g-2">
+               <span class="col-1 col-md-1 mb-2 mb-md-0 text-body">
+                  <span class="avatar bg-red text-white w-11 h-11 me-2" style="font-size: 12px;">BIPN 103</span> 
+                  </span>
+                <span class="col-2 col-md-5 text-body d-flex align-items-center">
+                  Human Anatomy w/ Lab
+                </span>
+                <span class="col-2 col-md-2 text-body d-flex align-items-center">
+                  <i class="uil uil-clock me-1"></i> Spring 2026
+                </span>
+                <span class="col-2 col-md-2 text-body d-flex align-items-center">
+                  <i class="uil uil-location-arrow me-1"></i> TBD
+                </span>
+                <span class="col-2 col-md-2 text-body d-flex align-items-center">
+                  TBD
+                </span>
+              </span>
+            </div>
+          </a>
 
         <a class="job-item card mb-2 lift" 
           data-course="BIPN 100" 
@@ -195,7 +243,7 @@ services:
             <div class="card-body p-2">
              <span class="row justify-content-between g-2">
                <span class="col-1 col-md-1 mb-2 mb-md-0 text-body">
-                  <span class="avatar bg-blue text-white w-11 h-11 me-2" style="font-size: 14px;">BIPN 100</span> 
+                  <span class="avatar bg-blue text-white w-11 h-11 me-2" style="font-size: 12px;">BIPN 100</span> 
                   </span>
                 <span class="col-2 col-md-5 text-body d-flex align-items-center">
                   Human Physiology I
@@ -207,7 +255,7 @@ services:
                   <i class="uil uil-location-arrow me-1"></i> MOS 0114
                 </span>
                 <span class="col-2 col-md-2 text-body d-flex align-items-center">
-                  TBD
+                  245 students
                 </span>
               </span>
             </div>
@@ -221,7 +269,7 @@ services:
             <div class="card-body p-2">
              <span class="row justify-content-between g-2">
                <span class="col-1 col-md-1 mb-2 mb-md-0 text-body">
-                  <span class="avatar bg-yellow text-white w-11 h-11 me-2" style="font-size: 14px;">BILD 5</span> 
+                  <span class="avatar bg-yellow text-white w-11 h-11 me-2" style="font-size: 12px;">BILD 5</span> 
                   </span>
                 <span class="col-2 col-md-5 text-body d-flex align-items-center">
                   Data Analysis & Design for Biologists
@@ -233,7 +281,7 @@ services:
                   <i class="uil uil-location-arrow me-1"></i> CTL 0125
                 </span>
                 <span class="col-2 col-md-2 text-body d-flex align-items-center">
-                  TBD
+                  344 students
                 </span>
               </span>
             </div>
@@ -249,7 +297,7 @@ services:
             <div class="card-body p-2">
              <span class="row justify-content-between g-2">
                <span class="col-1 col-md-1 mb-2 mb-md-0 text-body">
-                  <span class="avatar bg-blue text-white w-11 h-11 me-2" style="font-size: 14px;">BIPN 100</span> 
+                  <span class="avatar bg-blue text-white w-11 h-11 me-2" style="font-size: 12px;">BIPN 100</span> 
                   </span>
                 <span class="col-2 col-md-5 text-body d-flex align-items-center">
                   Human Physiology I
@@ -274,7 +322,7 @@ services:
             <div class="card-body p-2">
              <span class="row justify-content-between g-2">
                <span class="col-1 col-md-1 mb-2 mb-md-0 text-body">
-                  <span class="avatar bg-red text-white w-11 h-11 me-2" style="font-size: 14px;">BIPN 103</span> 
+                  <span class="avatar bg-red text-white w-11 h-11 me-2" style="font-size: 12px;">BIPN 103</span> 
                   </span>
                 <span class="col-2 col-md-5 text-body d-flex align-items-center">
                   Human Anatomy w/ Lab
@@ -300,7 +348,7 @@ services:
             <div class="card-body p-2">
              <span class="row justify-content-between g-2">
                <span class="col-1 col-md-1 mb-2 mb-md-0 text-body">
-                  <span class="avatar bg-blue text-white w-11 h-11 me-2" style="font-size: 14px;">BIPN 100</span> 
+                  <span class="avatar bg-blue text-white w-11 h-11 me-2" style="font-size: 12px;">BIPN 100</span> 
                   </span>
                 <span class="col-2 col-md-5 text-body d-flex align-items-center">
                   Human Physiology I
@@ -327,7 +375,7 @@ services:
             <div class="card-body p-2">
              <span class="row justify-content-between g-2">
                <span class="col-1 col-md-1 mb-2 mb-md-0 text-body">
-                  <span class="avatar bg-blue text-white w-11 h-11 me-2" style="font-size: 14px;">BIPN 100</span> 
+                  <span class="avatar bg-blue text-white w-11 h-11 me-2" style="font-size: 12px;">BIPN 100</span> 
                   </span>
                 <span class="col-2 col-md-5 text-body d-flex align-items-center">
                   Human Physiology I
@@ -352,7 +400,7 @@ services:
             <div class="card-body p-2">
              <span class="row justify-content-between g-2">
                <span class="col-1 col-md-1 mb-2 mb-md-0 text-body">
-                  <span class="avatar bg-yellow text-white w-11 h-11 me-2" style="font-size: 14px;">BILD 5</span> 
+                  <span class="avatar bg-yellow text-white w-11 h-11 me-2" style="font-size: 12px;">BILD 5</span> 
                   </span>
                 <span class="col-2 col-md-5 text-body d-flex align-items-center">
                   Data Analysis & Design for Biologists
@@ -379,7 +427,7 @@ services:
             <div class="card-body p-2">
              <span class="row justify-content-between g-2">
                <span class="col-1 col-md-1 mb-2 mb-md-0 text-body">
-                  <span class="avatar bg-blue text-white w-11 h-11 me-2" style="font-size: 14px;">BIPN 100</span> 
+                  <span class="avatar bg-blue text-white w-11 h-11 me-2" style="font-size: 12px;">BIPN 100</span> 
                   </span>
                 <span class="col-2 col-md-5 text-body d-flex align-items-center">
                   Human Physiology I
