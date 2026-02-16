@@ -25,6 +25,8 @@ pagination:
 %}
 </header>
 
+
+
 {% include components/footer/footer.html 
   style="minimal"
   bg_color="bg-navy"

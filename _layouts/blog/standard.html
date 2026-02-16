@@ -29,7 +29,6 @@ header_style: blog-list
     <div class="row">
       <div class="col-lg-10 mx-auto">
         <div class="blog classic-view mt-n12">
-          {% for post in paginator.posts reversed %}
           <article class="post">
             <div class="card">
               <div class="card-body">
@@ -50,7 +49,7 @@ header_style: blog-list
               <div class="card-footer">
                 <ul class="post-meta d-flex mb-0">
                   <li class="post-date"><i class="uil uil-calendar-alt"></i><span>{{ post.date | date: "%d %b %Y" }}</span></li>
-                  <li class="post-author"><a href="/authors/{{ post.author | slugify }}"><i class="uil uil-user"></i><span>By {{ post.author }}</span></a></li>
+                  <li class="post-author"><i class="uil uil-user"></i><span>By {{ post.author }}</span></li>
                   {% if post.comments %}<li class="post-comments"><a href="{{ post.url }}#comments"><i class="uil uil-comment"></i>{{ post.comments }}{% if post.comments != 1 %}<span> Comments</span>{% else %}<span> Comment</span>{% endif %}</a></li>{% endif %}
                   {% if post.likes %}<li class="post-likes ms-auto"><a href="#"><i class="uil uil-heart-alt"></i>{{ post.likes }}</a></li>{% endif %}
                 </ul>
