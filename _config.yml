@@ -17,7 +17,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-paginate-v2
+  - jekyll-paginate
   - jekyll-watch
   - jekyll-toc   #Documentation TOC 
 
@@ -36,18 +36,8 @@ toc:
   sanitize: false
 
 # Pagination
-pagination:
-  enabled: true
-  debug: true
-  collections:
-    - name: 'projects'
-      per_page: 9
-      permalink: '/projects/page:num/'
-      title: ':title - Page :num'
-    - name: 'posts'
-      per_page: 6
-      permalink: '/blog/page:num/'
-      title: ':title - Page :num'
+paginate: 6                 # posts per page
+paginate_path: "/blog/page:num/"
 
 # Collections
 collections:
