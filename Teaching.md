@@ -187,7 +187,7 @@ services:
 
 
 
-
+      
 
         <a class="job-item card mb-2 lift" 
           data-course="BIPN 100" 

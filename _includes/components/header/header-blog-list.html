@@ -1,7 +1,7 @@
 {% assign style_key = include.header_style | default: 'blog-list' %}
 {% assign style = site.data.header.styles[style_key] %}
 
-<section class="{{ style.section_classes }}">
+<section class="{{ style.section_classes }} py-0 py-md-0">
   <div class="container {{ style.container_classes }}">
     <div class="row">
       <div class="{{ style.column_classes }}">
