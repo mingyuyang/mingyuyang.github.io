@@ -7,7 +7,6 @@ group :jekyll_plugins do
   gem "jekyll-feed"
   gem "jekyll-seo-tag"
   gem "jekyll-sitemap"
-  gem "jekyll-paginate-v2"
   gem "jekyll-sass-converter"
   gem 'jekyll-watch'
   gem 'jekyll-tagging'
@@ -25,3 +24,5 @@ gem "sassc"
 
 # Image processing
 gem "image_processing"
+
+gem "jekyll-paginate", "~> 1.1"

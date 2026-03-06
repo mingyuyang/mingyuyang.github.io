@@ -105,6 +105,8 @@ services:
             </div>
           </div>
         </div>
+
+
      
       </div>
     </div>
@@ -186,8 +188,8 @@ services:
         <div class="job-list mb-10">
 
 
-
-      
+ 
+       
 
         <a class="job-item card mb-2 lift" 
           data-course="BIPN 100" 

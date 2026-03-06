@@ -10,7 +10,7 @@ scroll_top_btn:
 # Hero Section
 hero:
   title: Hi, I'm Ming!
-  subtitle: I’m an Assistant Teaching Professor at UC San Diego, in the Department of Cell and Developmental Biology. As a teaching-focused faculty member, my primary role (and passion) is teaching and designing undergraduate courses. I also research how students develop mechanistic reasoning and visual literacy, and I develop curricular materials to equip biologists with programming and quantitative skills. I love being in the classroom, and I care deeply about building a culture of joy and inclusion in my classes.
+  subtitle: I’m a tenure-track Assistant Teaching Professor at UC San Diego, in the Department of Cell and Developmental Biology. As a teaching-focused faculty member, my primary role (and passion) is teaching and designing undergraduate courses. I also research how students develop mechanistic reasoning and visual literacy, and I develop curricular materials to equip biologists with programming and quantitative skills. I love being in the classroom, and I care deeply about building a culture of joy and inclusion in my classes.
   button:
     label: Download my CV
     url: "#"
@@ -104,7 +104,6 @@ footer_cta:
 
         
         <div class="job-list mb-10">
-
 
 <div class="job-item card border-0 bg-transparent mb-4" data-year="25-26">
   <div class="card-body p-2">
