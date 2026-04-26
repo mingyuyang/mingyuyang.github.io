@@ -64,6 +64,31 @@ services:
       </div>
     </div>
 
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-11 col-lg-11">
+      <a href="https://journals.asm.org/doi/10.1128/jmbe.00279-25" 
+         class="job-item card mb-3 lift">
+        <div class="card-body p-3">
+          <span class="row justify-content-between g-0">
+            <span class="col-3 col-md-3 mb-2 mb-md-0 text-body">
+              <img src="/assets/img/publications/ATP_reasoning_banner.png" 
+                   class="w-100 rounded me-2" 
+                   loading="lazy" 
+                   style="max-height: 180px; object-fit: cover;">
+            </span>
+            <span class="col-8 col-md-8 text-body text-start">
+              Making sense of ATP hydrolysis: how students reconcile conflicting ideas from chemistry and biology <br>
+              Hall H., <strong>Yang M.</strong><br>
+              <em>Journal of Microbiology and Biology Education</em> (2026)
+            </span>
+          </span>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+
 
 <div class="container">
   <div class="row justify-content-center">

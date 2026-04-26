@@ -320,7 +320,7 @@ services:
             </div>
           </a>
 
-        <a class="job-item card mb-2 lift" 
+         <a href="/blog/bipn-103-fa25-course-retrospective/" class="job-item card mb-2 lift"
           data-course="BIPN 103" 
           data-year = "25-26" 
           data-building = "TATA">

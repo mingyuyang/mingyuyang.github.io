@@ -13,27 +13,27 @@ hero:
   subtitle: I’m a tenure-track Assistant Teaching Professor at UC San Diego, in the Department of Cell and Developmental Biology. As a teaching-focused faculty member, my primary role (and passion) is teaching and designing undergraduate courses. I also research how students develop mechanistic reasoning and visual literacy, and I develop curricular materials to equip biologists with programming and quantitative skills. I love being in the classroom, and I care deeply about building a culture of joy and inclusion in my classes.
   button:
     label: Download my CV
-    url: "#"
+    url: "assets/Mingyu Yang CV.pdf"
     class: btn btn-lg btn-primary rounded-pill
   image: /assets/img/photos/ming_headshot2.png
   image2x: /assets/img/photos/ming_headshot2.png
   
 # Services Section
 services:
-  title: What am I teaching this year?
+  title: What am I teaching next year?
   service_items:
     - image: /assets/img/icons/seasons/fall.png
       image2x: /assets/img/icons/seasons/fall.png
-      title: Fall 2025
+      title: Fall 2026
       text: <ul> <li>BIPN 100 Human Physiology I</li> <li>BIPN 103 Human Anatomy w/ Lab</li></ul>
     - image: /assets/img/icons/seasons/winter.png
       image2x: /assets/img/icons/seasons/winter.png
-      title: Winter 2026
-      text: <ul> <li>BIPN 100 Human Physiology I</li><li>BILD 5 Data Analysis & Design for Biologists</li> </ul>
+      title: Winter 2027
+      text: <ul> <li>BIPN 103 Human Anatomy w/ Lab</li></ul>
     - image: /assets/img/icons/seasons/spring.png
       image2x: /assets/img/icons/seasons/spring.png
-      title: Spring 2026
-      text: <ul> <li>BIPN 100 Human Physiology I</li><li>BIPN 103 Human Anatomy w/ Lab</li> </ul>
+      title: Spring 2027
+      text: <ul> <li>BILD 5 Data Analysis & Design for Biologists</li><li>BGGN 277 Integrated Anatomy, Physiology, Pathophysiology w/ Lab</li> </ul>
 
 
 # Footer CTA
@@ -104,6 +104,27 @@ footer_cta:
 
         
         <div class="job-list mb-10">
+
+<div class="job-item card border-0 bg-transparent mb-4" data-year="25-26">
+  <div class="card-body p-2">
+
+    <div class="row justify-content-center">   
+      <div class="col-11 col-lg-11">           
+        <div class="row g-4 align-items-center">
+          <div class="col-2 text-body d-flex align-items-center">
+            <strong>Apr 2026</strong>
+          </div>
+          <div class="col-10 text-body d-flex align-items-center">
+            Our paper on biology students’ chemical reasoning about ATP was published in the Journal of Microbiology & Biology Education.
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
 
 <div class="job-item card border-0 bg-transparent mb-4" data-year="25-26">
   <div class="card-body p-2">
