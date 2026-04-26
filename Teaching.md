@@ -42,7 +42,7 @@ scroll_top_btn:
               <img src="/assets/img/icons/courses/bild5_icon.png"
                 alt=""
                 style="width: 100px; height: auto;" />
-              <h3>BILD 5 Data Analysis & Design for Biologists</h3>
+              <h3>BILD 005 Data Analysis & Design for Biologists</h3>
               <p class="mb-2">Introduction to information literacy, experimental design, and data analysis for biologists, including coding, data management, and quantitative analysis. Practical skills related to effectively asking and answering biological questions with data.</p>
             </div>
           </div>
@@ -101,7 +101,7 @@ scroll_top_btn:
                 <select class="form-select" id="courseFilter" aria-label="">
                   <option value="">Course</option>
                   
-                  <option value="BILD 5">BILD 5</option>
+                  <option value="BILD 005">BILD 005</option>
                   
                   <option value="BIPN 100">BIPN 100</option>
                   
@@ -234,13 +234,13 @@ scroll_top_btn:
           
 
       <a class="job-item card mb-2 lift" 
-        data-course="BILD 5" 
+        data-course="BILD 005" 
         data-year = "25-26" 
         data-building = "Catalyst">
             <div class="card-body p-2">
              <span class="row justify-content-between g-2">
                <span class="col-1 col-md-1 mb-2 mb-md-0 text-body">
-                  <span class="avatar bg-yellow text-white w-11 h-11 me-2" style="font-size: 12px;">BILD 5</span> 
+                  <span class="avatar bg-yellow text-white w-11 h-11 me-2" style="font-size: 12px;">BILD 005</span> 
                   </span>
                 <span class="col-2 col-md-5 text-body d-flex align-items-center">
                   Data Analysis & Design for Biologists
@@ -365,13 +365,13 @@ scroll_top_btn:
           </a>
 
          <a href="/blog/bild-5-sp25-course-retrospective/" class="job-item card mb-2 lift" 
-          data-course="BILD 5" 
+          data-course="BILD 005" 
           data-year = "24-25" 
           data-building = "Center Hall">
             <div class="card-body p-2">
              <span class="row justify-content-between g-2">
                <span class="col-1 col-md-1 mb-2 mb-md-0 text-body">
-                  <span class="avatar bg-yellow text-white w-11 h-11 me-2" style="font-size: 12px;">BILD 5</span> 
+                  <span class="avatar bg-yellow text-white w-11 h-11 me-2" style="font-size: 12px;">BILD 005</span> 
                   </span>
                 <span class="col-2 col-md-5 text-body d-flex align-items-center">
                   Data Analysis & Design for Biologists

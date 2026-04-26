@@ -33,7 +33,7 @@ services:
     - image: /assets/img/icons/seasons/spring.png
       image2x: /assets/img/icons/seasons/spring.png
       title: Spring 2027
-      text: <ul> <li>BILD 5 Data Analysis & Design for Biologists</li><li>BGGN 277 Integrated Anatomy, Physiology, Pathophysiology w/ Lab</li> </ul>
+      text: <ul> <li>BILD 005 Data Analysis & Design for Biologists</li><li>BGGN 277 Integrated Anatomy, Physiology, Pathophysiology w/ Lab</li> </ul>
 
 
 # Footer CTA
