@@ -6,37 +6,6 @@ custom_color: sky
 custom_font: urbanist
 scroll_top_btn:
   enable: true
-
-# Hero Section
-hero:
-  title: A digital agency specializing on <span class="rotator-fade text-primary">mobile design,web design,3D animation</span>
-  subtitle: We are an award winning design agency that strongly believes in the power of creative ideas.
-  button:
-    label: Get Started
-    url: "#"
-    class: btn btn-lg btn-primary rounded-pill
-  image: /assets/img/illustrations/i21.png
-  image2x: /assets/img/illustrations/i21@2x.png
-  trust_text: Trusted by over 2K+ clients across the world
-  
-# Services Section
-services:
-  title: What We Do?
-  subtitle: The service we offer is specifically designed to meet your needs.
-  service_items:
-    - image: /assets/img/illustrations/i24.png
-      image2x: /assets/img/illustrations/i24@2x.png
-      title: Web Design
-      text: Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget. Fusce dapibus tellus.
-    - image: /assets/img/illustrations/i19.png
-      image2x: /assets/img/illustrations/i19@2x.png
-      title: Graphic Design
-      text: Maecenas faucibus mollis interdum. Vivamus sagittis lacus vel augue laoreet. Sed posuere consectetur.
-    - image: /assets/img/illustrations/i18.png
-      image2x: /assets/img/illustrations/i18@2x.png
-      title: 3D Animation
-      text: Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna scelerisque.
-
               
 ---
 <div class="content-wrapper">
@@ -75,7 +44,6 @@ services:
                 style="width: 100px; height: auto;" />
               <h3>BILD 5 Data Analysis & Design for Biologists</h3>
               <p class="mb-2">Introduction to information literacy, experimental design, and data analysis for biologists, including coding, data management, and quantitative analysis. Practical skills related to effectively asking and answering biological questions with data.</p>
-              <a href="#" class="more hover link-yellow">Sample syllabus</a>
             </div>
           </div>
         </div>
@@ -88,7 +56,6 @@ services:
                 style="width: 100px; height: auto;" />
               <h3>BIPN 100 Human Physiology I</h3>
               <p class="mb-2">Concepts of physiological regulation, controlled and integrated by the nervous and endocrine systems. Structure and function of the muscular, cardiovascular, and renal systems in detail and their control through the interaction of nervous activity and hormones. </p>
-              <a href="#" class="more hover link-blue">Sample syllabus</a>
             </div>
           </div>
         </div>
@@ -101,7 +68,6 @@ services:
                 style="width: 100px; height: auto;" />
               <h3>BIPN 103 Human Anatomy w/ Lab</h3>
               <p class="mb-2">Tour of the human body, including the cellular and structural organization of the major organ systems. Covers the cardiovascular, digestive, muscular, nervous, renal, reproductive, respiratory, and skeletal systems.</p>
-              <a href="#" class="more hover link-red">Sample syllabus</a>
             </div>
           </div>
         </div>
