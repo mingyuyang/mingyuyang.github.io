@@ -49,7 +49,7 @@ footer_cta:
 <style>
 @media (max-width: 768px) {
   html {
-    font-size: 75% !important;
+    font-size: 85% !important;
   }
 }
 </style>

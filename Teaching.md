@@ -12,7 +12,7 @@ scroll_top_btn:
 @media (max-width: 768px) {
   /* shrink ALL text */
   html {
-    font-size: 75% !important;
+    font-size: 85% !important;
   }
 
   /* hero image */
