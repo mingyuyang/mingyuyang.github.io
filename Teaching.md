@@ -8,6 +8,30 @@ scroll_top_btn:
   enable: true
               
 ---
+<style>
+@media (max-width: 768px) {
+  /* shrink ALL text */
+  html {
+    font-size: 75% !important;
+  }
+
+  /* hero image */
+  #hero-img {
+    max-height: 270px !important;
+  }
+
+  /* hero text padding */
+  #hero-text {
+    padding: 0 24px;
+  }
+
+  /* course icons */
+  .course-icon {
+    width: 70px !important;
+  }
+}
+</style>
+
 <div class="content-wrapper">
 <header class="wrapper bg-light">
 {% include components/navbar/navbar.html 
@@ -39,7 +63,8 @@ scroll_top_btn:
         <div class="col-md-6 col-xl-4">
           <div class="card shadow-lg">
             <div class="card-body text-start">
-              <img src="/assets/img/icons/courses/bild5_icon.png"
+              <img class="course-icon"
+                src="/assets/img/icons/courses/bild5_icon.png"
                 alt=""
                 style="width: 100px; height: auto;" />
               <h3>BILD 005 Data Analysis & Design for Biologists</h3>
@@ -51,7 +76,8 @@ scroll_top_btn:
         <div class="col-md-6 col-xl-4">
           <div class="card shadow-lg">
             <div class="card-body text-start">
-              <img src="/assets/img/icons/courses/bipn100_icon.png"
+              <img class="course-icon" 
+                src="/assets/img/icons/courses/bipn100_icon.png"
                 alt=""
                 style="width: 100px; height: auto;" />
               <h3>BIPN 100 Human Physiology I</h3>
@@ -63,7 +89,8 @@ scroll_top_btn:
         <div class="col-md-6 col-xl-4">
           <div class="card shadow-lg">
             <div class="card-body text-start">
-              <img src="/assets/img/icons/courses/bipn103_icon.png"
+              <img class="course-icon"
+                src="/assets/img/icons/courses/bipn103_icon.png"
                 alt=""
                 style="width: 100px; height: auto;" />
               <h3>BIPN 103 Human Anatomy w/ Lab</h3>
@@ -152,10 +179,6 @@ scroll_top_btn:
 
         
         <div class="job-list mb-10">
-
-
- 
-       
 
         <a class="job-item card mb-2 lift" 
           data-course="BIPN 100" 

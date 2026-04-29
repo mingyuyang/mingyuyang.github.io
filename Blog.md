@@ -9,6 +9,13 @@ scroll_top_btn:
 pagination:
   enabled: true
 ---
+<style>
+@media (max-width: 768px) {
+  html {
+    font-size: 75% !important;
+  }
+}
+</style>
 
 <div class="content-wrapper">
 <header class="wrapper bg-light">

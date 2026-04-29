@@ -46,6 +46,14 @@ footer_cta:
 
 ---
 
+<style>
+@media (max-width: 768px) {
+  html {
+    font-size: 75% !important;
+  }
+}
+</style>
+
 <div class="content-wrapper">
 <header class="wrapper bg-light">
 {% include components/navbar/navbar.html 
