@@ -1,3 +1,12 @@
+<style>
+@media (max-width: 768px) {
+  html {
+    font-size: 85% !important;
+  }
+}
+
+</style>
+
 {% if paginator.total_pages > 1 %}
 <nav class="d-flex justify-content-{{ include.alignment | default: 'center' }}" aria-label="pagination">
   <ul class="pagination">

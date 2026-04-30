@@ -9,15 +9,10 @@ scroll_top_btn:
 pagination:
   enabled: true
 ---
-<style>
-@media (max-width: 768px) {
-  html {
-    font-size: 85% !important;
-  }
-}
-</style>
+
 
 <div class="content-wrapper">
+
 <header class="wrapper bg-light">
 {% include components/navbar/navbar.html 
     topAlert=false
