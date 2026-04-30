@@ -29,6 +29,17 @@ scroll_top_btn:
   .course-icon {
     width: 70px !important;
   }
+
+  .course-tag {
+     font-size: 12px;
+  }
+
+  /* Smaller on phones */
+  @media (max-width: 768px) {
+  .course-tag {
+      font-size: 9px;
+  }
+        }
 }
 </style>
 
@@ -176,7 +187,6 @@ scroll_top_btn:
           </div>
         </form>
 
-
         
         <div class="job-list mb-10">
 
@@ -187,7 +197,7 @@ scroll_top_btn:
             <div class="card-body p-2">
              <span class="row justify-content-between g-2">
                <span class="col-1 col-md-1 mb-2 mb-md-0 text-body">
-                  <span class="avatar bg-blue text-white w-11 h-11 me-2" style="font-size: 12px;">BIPN 100</span> 
+                  <span class="avatar bg-blue text-white w-11 h-11 me-2 course-tag">BIPN 100</span>
                   </span>
                 <span class="col-2 col-md-5 text-body d-flex align-items-center">
                   Human Physiology I
@@ -212,7 +222,7 @@ scroll_top_btn:
             <div class="card-body p-2">
              <span class="row justify-content-between g-2">
                <span class="col-1 col-md-1 mb-2 mb-md-0 text-body">
-                  <span class="avatar bg-red text-white w-11 h-11 me-2" style="font-size: 12px;">BIPN 103</span> 
+                  <span class="avatar bg-red text-white w-11 h-11 me-2 course-tag">BIPN 103</span>
                   </span>
                 <span class="col-2 col-md-5 text-body d-flex align-items-center">
                   Human Anatomy w/ Lab
@@ -237,7 +247,7 @@ scroll_top_btn:
             <div class="card-body p-2">
              <span class="row justify-content-between g-2">
                <span class="col-1 col-md-1 mb-2 mb-md-0 text-body">
-                  <span class="avatar bg-blue text-white w-11 h-11 me-2" style="font-size: 12px;">BIPN 100</span> 
+                  <span class="avatar bg-blue text-white w-11 h-11 me-2 course-tag">BIPN 100</span>
                   </span>
                 <span class="col-2 col-md-5 text-body d-flex align-items-center">
                   Human Physiology I
@@ -263,7 +273,7 @@ scroll_top_btn:
             <div class="card-body p-2">
              <span class="row justify-content-between g-2">
                <span class="col-1 col-md-1 mb-2 mb-md-0 text-body">
-                  <span class="avatar bg-yellow text-white w-11 h-11 me-2" style="font-size: 12px;">BILD 005</span> 
+                  <span class="avatar bg-yellow text-white w-11 h-11 me-2 course-tag">BILD 005</span>
                   </span>
                 <span class="col-2 col-md-5 text-body d-flex align-items-center">
                   Data Analysis & Design for Biologists
@@ -291,7 +301,7 @@ scroll_top_btn:
             <div class="card-body p-2">
              <span class="row justify-content-between g-2">
                <span class="col-1 col-md-1 mb-2 mb-md-0 text-body">
-                  <span class="avatar bg-blue text-white w-11 h-11 me-2" style="font-size: 12px;">BIPN 100</span> 
+                  <span class="avatar bg-blue text-white w-11 h-11 me-2 course-tag">BIPN 100</span>
                   </span>
                 <span class="col-2 col-md-5 text-body d-flex align-items-center">
                   Human Physiology I
@@ -316,7 +326,7 @@ scroll_top_btn:
             <div class="card-body p-2">
              <span class="row justify-content-between g-2">
                <span class="col-1 col-md-1 mb-2 mb-md-0 text-body">
-                  <span class="avatar bg-red text-white w-11 h-11 me-2" style="font-size: 12px;">BIPN 103</span> 
+                  <span class="avatar bg-red text-white w-11 h-11 me-2 course-tag">BIPN 103</span>
                   </span>
                 <span class="col-2 col-md-5 text-body d-flex align-items-center">
                   Human Anatomy w/ Lab
@@ -342,7 +352,7 @@ scroll_top_btn:
             <div class="card-body p-2">
              <span class="row justify-content-between g-2">
                <span class="col-1 col-md-1 mb-2 mb-md-0 text-body">
-                  <span class="avatar bg-blue text-white w-11 h-11 me-2" style="font-size: 12px;">BIPN 100</span> 
+                  <span class="avatar bg-blue text-white w-11 h-11 me-2 course-tag">BIPN 100</span>
                   </span>
                 <span class="col-2 col-md-5 text-body d-flex align-items-center">
                   Human Physiology I
@@ -369,7 +379,7 @@ scroll_top_btn:
             <div class="card-body p-2">
              <span class="row justify-content-between g-2">
                <span class="col-1 col-md-1 mb-2 mb-md-0 text-body">
-                  <span class="avatar bg-blue text-white w-11 h-11 me-2" style="font-size: 12px;">BIPN 100</span> 
+                  <span class="avatar bg-blue text-white w-11 h-11 me-2 course-tag">BIPN 100</span>
                   </span>
                 <span class="col-2 col-md-5 text-body d-flex align-items-center">
                   Human Physiology I
@@ -394,7 +404,7 @@ scroll_top_btn:
             <div class="card-body p-2">
              <span class="row justify-content-between g-2">
                <span class="col-1 col-md-1 mb-2 mb-md-0 text-body">
-                  <span class="avatar bg-yellow text-white w-11 h-11 me-2" style="font-size: 12px;">BILD 005</span> 
+                  <span class="avatar bg-yellow text-white w-11 h-11 me-2 course-tag">BILD 005</span>
                   </span>
                 <span class="col-2 col-md-5 text-body d-flex align-items-center">
                   Data Analysis & Design for Biologists
@@ -421,7 +431,7 @@ scroll_top_btn:
             <div class="card-body p-2">
              <span class="row justify-content-between g-2">
                <span class="col-1 col-md-1 mb-2 mb-md-0 text-body">
-                  <span class="avatar bg-blue text-white w-11 h-11 me-2" style="font-size: 12px;">BIPN 100</span> 
+                  <span class="avatar bg-blue text-white w-11 h-11 me-2 course-tag">BIPN 100</span>
                   </span>
                 <span class="col-2 col-md-5 text-body d-flex align-items-center">
                   Human Physiology I
