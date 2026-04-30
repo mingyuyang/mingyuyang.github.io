@@ -9,39 +9,37 @@ scroll_top_btn:
               
 ---
 <style>
+
+/* ✅ Default (applies everywhere unless overridden) */
+.course-tag {
+  font-size: 11px !important;
+}
+
+/* ✅ Mobile overrides */
 @media (max-width: 768px) {
-  /* shrink ALL text */
   html {
     font-size: 85% !important;
   }
 
-  /* hero image */
   #hero-img {
     max-height: 270px !important;
   }
 
-  /* hero text padding */
   #hero-text {
     padding: 0 24px;
   }
 
-  /* course icons */
   .course-icon {
     width: 70px !important;
   }
 
   .course-tag {
-     font-size: 12px;
+    font-size: 9px !important;
   }
-
-  /* Smaller on phones */
-  @media (max-width: 768px) {
-  .course-tag {
-      font-size: 9px;
-  }
-        }
 }
+
 </style>
+
 
 <div class="content-wrapper">
 <header class="wrapper bg-light">
