@@ -4,7 +4,7 @@ title: "BIPN 100 WI25: Course Retrospective"
 date: 2025-04-06  # realistic publish date in January
 last_modified: 2025-04-06  # recent update in early March
 author: Mingyu Yang
-category: Course Refections
+category: Course Reflections
 header_style: standard
 featured_image: false
 sidebar_position: false

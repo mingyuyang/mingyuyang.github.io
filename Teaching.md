@@ -82,6 +82,7 @@ scroll_top_btn:
           </div>
         </div>
         
+
         <div class="col-md-6 col-xl-4">
           <div class="card shadow-lg">
             <div class="card-body text-start">
@@ -94,7 +95,20 @@ scroll_top_btn:
             </div>
           </div>
         </div>
-        
+
+        <div class="col-md-6 col-xl-4">
+          <div class="card shadow-lg">
+            <div class="card-body text-start">
+              <img class="course-icon" 
+                src="/assets/img/icons/courses/bipn102_icon.png"
+                alt=""
+                style="width: 100px; height: auto;" />
+              <h3>BIPN 102 Human Physiology II</h3>
+              <p class="mb-2"><i>(Starting Summer 2027)</i> Completes the survey of organ systems begun in BIPN 100 by considering the respiratory and gastrointestinal systems, and the interactions of these systems in weight and temperature regulation, exercise physiology, stress, and metabolism.</p>
+            </div>
+          </div>
+        </div>
+
         <div class="col-md-6 col-xl-4">
           <div class="card shadow-lg">
             <div class="card-body text-start">
@@ -103,13 +117,39 @@ scroll_top_btn:
                 alt=""
                 style="width: 100px; height: auto;" />
               <h3>BIPN 103 Human Anatomy w/ Lab</h3>
-              <p class="mb-2">Tour of the human body, including the cellular and structural organization of the major organ systems. Covers the cardiovascular, digestive, muscular, nervous, renal, reproductive, respiratory, and skeletal systems.</p>
+              <p class="mb-2">Tour of the human body, emphasizing the cellular and structural organization of the major organ systems. Covers the skeletal, muscular, nervous, cardiovascular, respiratory, digestive, urinary, and reproductive systems.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-xl-4">
+          <div class="card shadow-lg">
+            <div class="card-body text-start">
+              <img class="course-icon"
+                src="/assets/img/icons/courses/bipn104_icon.png"
+                alt=""
+                style="width: 100px; height: auto;" />
+              <h3>BIPN 104 Physiological Inquiry</h3>
+              <p class="mb-2"><i>(Starting Summer 2027)</i> Analysis of primary literature in physiology and clinical case studies. Emphasis on analyzing research data, developing critical thinking skills, and applying physiological principles to understand scientific discoveries and human health.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-xl-4">
+          <div class="card shadow-lg">
+            <div class="card-body text-start">
+              <img class="course-icon"
+                src="/assets/img/icons/courses/bggn277_icon.png"
+                alt=""
+                style="width: 100px; height: auto;" />
+              <h3>BGGN 277 Integrative Anatomy, Physiology, Pathophysiology</h3>
+              <p class="mb-2"><i>(Starting Spring 2027)</i> Third course in a year-long sequence for master’s students. Integrates advanced human anatomy and physiology with pathophysiological mechanisms of disease. Emphasis on digestive, renal, and gastrointestinal systems, and multisystem processes and disorders.</p>
             </div>
           </div>
         </div>
 
 
-     
+
       </div>
     </div>
   </div>
@@ -162,13 +202,15 @@ scroll_top_btn:
             <div class="col-md-4 mb-3">
               <div class="form-select-wrapper">
                 <select class="form-select" id="buildingFilter" aria-label="">
-                  <option value="">Building</option>
+                  <option value="">Location</option>
                 
                   <option value="Catalyst">Catalyst</option>
                   
                   <option value="Center Hall">Center Hall</option>
 
                   <option value="CSB">CSB</option>
+
+                  <option value="FAH">FAH</option>
                   
                   <option value="HSS">HSS</option>
 
@@ -188,6 +230,8 @@ scroll_top_btn:
         
         <div class="job-list mb-10">
 
+
+
         <a class="job-item card mb-2 lift" 
           data-course="BIPN 100" 
           data-year = "25-26" 
@@ -201,7 +245,7 @@ scroll_top_btn:
                   Human Physiology I
                 </span>
                 <span class="col-2 col-md-2 text-body d-flex align-items-center">
-                  <i class="uil uil-clock me-1"></i> Spring 2026
+                  <i class="uil uil-clock me-1"></i> Summer 2026
                 </span>
                 <span class="col-2 col-md-2 text-body d-flex align-items-center">
                   <i class="uil uil-location-arrow me-1"></i> TBD
@@ -211,12 +255,37 @@ scroll_top_btn:
                 </span>
               </span>
             </div>
+          </a> 
+
+        <a class="job-item card mb-2 lift" 
+          data-course="BIPN 100" 
+          data-year = "25-26" 
+          data-building = "FAH">
+            <div class="card-body p-2">
+             <span class="row justify-content-between g-2">
+               <span class="col-1 col-md-1 mb-2 mb-md-0 text-body">
+                  <span class="avatar bg-blue text-white w-11 h-11 me-2 course-tag">BIPN 100</span>
+                  </span>
+                <span class="col-2 col-md-5 text-body d-flex align-items-center">
+                  Human Physiology I
+                </span>
+                <span class="col-2 col-md-2 text-body d-flex align-items-center">
+                  <i class="uil uil-clock me-1"></i> Spring 2026
+                </span>
+                <span class="col-2 col-md-2 text-body d-flex align-items-center">
+                  <i class="uil uil-location-arrow me-1"></i> FAH 1301
+                </span>
+                <span class="col-2 col-md-2 text-body d-flex align-items-center">
+                  236 students
+                </span>
+              </span>
+            </div>
           </a>
 
         <a class="job-item card mb-2 lift" 
           data-course="BIPN 103" 
           data-year = "25-26" 
-          data-building = "">
+          data-building = "TATA">
             <div class="card-body p-2">
              <span class="row justify-content-between g-2">
                <span class="col-1 col-md-1 mb-2 mb-md-0 text-body">
@@ -229,16 +298,16 @@ scroll_top_btn:
                   <i class="uil uil-clock me-1"></i> Spring 2026
                 </span>
                 <span class="col-2 col-md-2 text-body d-flex align-items-center">
-                  <i class="uil uil-location-arrow me-1"></i> TBD
+                  <i class="uil uil-location-arrow me-1"></i> TATA 2501
                 </span>
                 <span class="col-2 col-md-2 text-body d-flex align-items-center">
-                  TBD
+                  47 students
                 </span>
               </span>
             </div>
           </a>
 
-        <a class="job-item card mb-2 lift" 
+        <a href="/blog/bipn-100-wi26-course-retrospective/" class="job-item card mb-2 lift" 
           data-course="BIPN 100" 
           data-year = "25-26" 
           data-building = "Mosaic">
@@ -264,7 +333,7 @@ scroll_top_btn:
           </a>
           
 
-      <a class="job-item card mb-2 lift" 
+      <a href="/blog/bild-005-wi26-course-retrospective/" class="job-item card mb-2 lift" 
         data-course="BILD 005" 
         data-year = "25-26" 
         data-building = "Catalyst">
@@ -395,7 +464,7 @@ scroll_top_btn:
             </div>
           </a>
 
-         <a href="/blog/bild-5-sp25-course-retrospective/" class="job-item card mb-2 lift" 
+         <a href="/blog/bild-005-sp25-course-retrospective/" class="job-item card mb-2 lift" 
           data-course="BILD 005" 
           data-year = "24-25" 
           data-building = "Center Hall">

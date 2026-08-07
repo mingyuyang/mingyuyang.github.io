@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BILD 5 SP25: Course Retrospective"
+title: "BILD 005 SP25: Course Retrospective"
 date: 2025-07-01  # realistic publish date in January
 last_modified: 2025-07-01  # recent update in early March
 author: Mingyu Yang

@@ -36,13 +36,7 @@ services:
       text: <ul> <li>BILD 005 Data Analysis & Design for Biologists</li><li>BGGN 277 Integrated Anatomy, Physiology, Pathophysiology w/ Lab</li> </ul>
 
 
-# Footer CTA
-footer_cta:
-  title: Join our community by using our services and grow your business.
-  button:
-    label: Try It For Free
-    url: "#"
-    class: btn btn-primary rounded-pill
+
 
 ---
 
@@ -73,6 +67,42 @@ footer_cta:
 {% include components/sections/demo21/hero.html %}
 {% include components/sections/demo21/services.html %}
 
+
+
+<section class="wrapper bg-light">
+  <div class="container py-0 py-md-0 text-center">
+    <div class="row">
+      <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+      </div>
+    </div>
+    <div class="position-relative">
+      <div class="shape rounded-circle bg-soft-blue rellax w-16 h-16" data-rellax-speed="1" style="bottom: -0.5rem; right: -2.2rem; z-index: 0;"></div>
+      <div class="shape bg-dot yellow rellax w-16 h-17" data-rellax-speed="1" style="top: -0.5rem; left: -2.5rem; z-index: 0;"></div>
+      <div class="row gx-md-5 gy-5 text-center">
+        
+        <div class="col-12">
+          <div class="card shadow-lg">
+            <div class="card-body text-start">
+              <h3>Launching in Summer 2027: Physiology in Sydney</h3>
+              <p>Want to spend five weeks studying biology in Australia? In Summer 2027, I'll be leading a <a href="https://studyabroad.ucsd.edu/students/programs/global-seminars/index.html">Global Seminar</a> that explores the physiology of breathing, digestion, and metabolism — complete with local field trips and immersive experiences. The program includes two courses:</p>
+              <ul>
+                <li><strong>BIPN 102</strong> Human Physiology II</li>
+                <li><strong>BIPN 104</strong> Physiological Inquiry, a new course centered on clinical case studies and reading primary research papers</li>
+              </ul>
+              <p>To be eligible, you must have completed BIPN 100 (Human Physiology I) and <strong>not</strong> have already taken BIPN 102 (Human Physiology II). More details coming soon!  </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<br>
+<br>
+<br>
 
 <section class="wrapper bg-light">
   <div class="container py-0 py-md-0">
@@ -112,6 +142,28 @@ footer_cta:
 
         
         <div class="job-list mb-10">
+
+
+
+<div class="job-item card border-0 bg-transparent mb-4" data-year="25-26">
+  <div class="card-body p-2">
+
+    <div class="row justify-content-center">   
+      <div class="col-11 col-lg-11">           
+        <div class="row g-4 align-items-center">
+          <div class="col-2 text-body d-flex align-items-center">
+            <strong>Jun 2026</strong>
+          </div>
+          <div class="col-10 text-body d-flex align-items-center">
+            I received the Outstanding Faculty Award from both Eleanor Rooosevelt College and Marshall College. I feel incredibly grateful to have been nominated by this year's graduating seniors! 
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</div>
 
 <div class="job-item card border-0 bg-transparent mb-4" data-year="25-26">
   <div class="card-body p-2">
@@ -265,7 +317,27 @@ footer_cta:
             <strong>Jan 2025</strong>
           </div>
           <div class="col-10 text-body d-flex align-items-center">
-           I started teaching at UCSD! For my first quarter, I'll be teaching BIPN 100 (Human Physiology I).
+           It's my first quarter teaching at UCSD! This quarter, I'm teaching BIPN 100 (Human Physiology I).
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</div> 
+
+ <div class="job-item card border-0 bg-transparent mb-4" data-year="24-25">
+  <div class="card-body p-2">
+
+    <div class="row justify-content-center">   
+      <div class="col-11 col-lg-11">           
+        <div class="row g-4 align-items-center">
+          <div class="col-2 text-body d-flex align-items-center">
+            <strong>Nov 2024</strong>
+          </div>
+          <div class="col-10 text-body d-flex align-items-center">
+           I started my faculty position as an Assistant Teaching Professor at UC San Diego.
           </div>
         </div>
 
