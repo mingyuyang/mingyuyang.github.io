@@ -20,7 +20,7 @@ hero:
   
 # Services Section
 services:
-  title: What am I teaching next year?
+  title: What am I teaching this year?
   service_items:
     - image: /assets/img/icons/seasons/fall.png
       image2x: /assets/img/icons/seasons/fall.png
